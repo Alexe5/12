@@ -94,7 +94,19 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _sayHello = __webpack_require__(/*! ./lib/sayHello.js */ \"./lib/sayHello.js\");\n\nvar _sayHello2 = _interopRequireDefault(_sayHello);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _sayHello2.default)();\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9hcHAuanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vc3JjL2pzL2FwcC5qcz8wMzU0Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzYXlIZWxsbyBmcm9tICcuL2xpYi9zYXlIZWxsby5qcyc7XG5cbnNheUhlbGxvKCk7XG4iXSwibWFwcGluZ3MiOiI7O0FBQUE7QUFDQTs7Ozs7QUFDQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./app.js\n");
+eval("\n\nvar _sayHello = __webpack_require__(/*! ./lib/sayHello.js */ \"./lib/sayHello.js\");\n\nvar _sayHello2 = _interopRequireDefault(_sayHello);\n\nvar _preloader = __webpack_require__(/*! ./lib/preloader.js */ \"./lib/preloader.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _sayHello2.default)();\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9hcHAuanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vc3JjL2pzL2FwcC5qcz8wMzU0Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzYXlIZWxsbyBmcm9tICcuL2xpYi9zYXlIZWxsby5qcyc7XG5pbXBvcnQgeyBkZWxQcmUgfSBmcm9tICcuL2xpYi9wcmVsb2FkZXIuanMnO1xuXG5zYXlIZWxsbygpO1xuIl0sIm1hcHBpbmdzIjoiOztBQUFBO0FBQ0E7OztBQUFBO0FBQ0E7OztBQUNBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./app.js\n");
+
+/***/ }),
+
+/***/ "./lib/preloader.js":
+/*!**************************!*\
+  !*** ./lib/preloader.js ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nvar delPre = setTimeout(function deletePreloader() {\n  var pre = document.getElementById('body');\n  var del = document.getElementById('preloader');\n  pre.removeChild(del);\n}, 5000);\n\nexports.delPre = delPre;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9saWIvcHJlbG9hZGVyLmpzLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL3NyYy9qcy9saWIvcHJlbG9hZGVyLmpzPzBjNzciXSwic291cmNlc0NvbnRlbnQiOlsidmFyIGRlbFByZSA9IHNldFRpbWVvdXQoZnVuY3Rpb24gZGVsZXRlUHJlbG9hZGVyKCkge1xyXG4gIHZhciBwcmUgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnYm9keScpO1xyXG4gIHZhciBkZWwgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgncHJlbG9hZGVyJyk7XHJcbiAgcHJlLnJlbW92ZUNoaWxkKGRlbCk7XHJcbn0sIDUwMDApO1xyXG5cclxuZXhwb3J0IHsgZGVsUHJlIH07XHJcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./lib/preloader.js\n");
 
 /***/ }),
 
